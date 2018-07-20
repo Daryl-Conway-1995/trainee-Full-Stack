@@ -1,0 +1,15 @@
+<div ng-controller="traineeController as traineeCtrl">
+    <div style="overflow:scroll;height:700px;width:80%;position:absolute;left: 160px;overflow:auto">
+
+        <table class="table table-striped">
+            <tr>
+                <th>First name</th>
+                <th>Second name</th>
+            </tr>
+            <tr ng-repeat="trainee in traineeCtrl.trainees" ng-click="traineeCtrl.giveTraineeFunction(trainee)">
+                <td>{{trainee.firstName}}</td>
+                <td>{{trainee.secondName}}</td>
+            </tr>
+        </table>
+    </div>
+</div>

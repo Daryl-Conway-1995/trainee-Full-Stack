@@ -43,6 +43,7 @@ public class TraineeDBRepository implements TraineeRepository {
 		Trainee traineeFromDB = findTrainee(id);
 		if (traineeToUpdate != null) {
 			traineeFromDB = updatedTrainee;
+			traineeFromDB.setId(id);
 			manager.merge(traineeFromDB);
 		}
 		return "{\"message\": \"Trainee sucessfully updated\"}";

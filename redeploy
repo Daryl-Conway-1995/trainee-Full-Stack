@@ -1,0 +1,7 @@
+#!/bin/bash
+wildfly="/c/LocalInstall/Servers/wildfly-10.1.0.Final/wildfly-10.1.0.Final"
+deployment_folder="$wildfly/standalone/deployments"
+mvn clean install
+rm -rf $deployment_folder/trainee-Full-Stack*
+cp target/trainee-Full-Stack.war $deployment_folder
+

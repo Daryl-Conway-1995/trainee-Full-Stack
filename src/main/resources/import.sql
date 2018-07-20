@@ -1,3 +1,3 @@
-INSERT INTO ACCOUNT (id, firstname, secondname, accountnumber) VALUES (1, 'John', 'Doe', '1234')
-INSERT INTO ACCOUNT (id, firstname, secondname, accountnumber) VALUES (2, 'Jane', 'Doe', '1235')
-INSERT INTO ACCOUNT (id, firstname, secondname, accountnumber) VALUES (3, 'Jim', 'Taylor', '1236')
+INSERT INTO TRAINEE (id, firstname, secondname, subject) VALUES (1, 'Daryl', 'Conway', 'Java: 5, JavaScript: 4, Python: 5')
+INSERT INTO TRAINEE (id, firstname, secondname, subject) VALUES (2, 'Sam', 'Kirk', 'Java: 4, JavaScript: 5, Python: 5')
+INSERT INTO TRAINEE (id, firstname, secondname, subject) VALUES (3, 'Jarad', 'Huggard', 'Java: 5, JavaScript: 3, Python: 4')
