@@ -3,8 +3,8 @@
         <h1>{{traineeCtrl.selectedTrainee.firstName}} {{traineeCtrl.selectedTrainee.secondName}}</h1>
         <h2>subjects</h2>
         <table class="table table-striped">
-            <tr ng-repeat="subject in traineeCtrl.selectedTrainee.subjects">
-                <td>{{subject}}</td>
+            <tr>
+                <td>{{traineeCtrl.selectedTrainee.subject}}</td>
             </tr>
         </table>
         <a ui-sref="trainee">Trainees</a>

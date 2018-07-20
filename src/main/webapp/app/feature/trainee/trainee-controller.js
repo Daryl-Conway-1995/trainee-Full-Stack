@@ -4,7 +4,7 @@
         
     	var vm = this;
 
-        // vm.selectedTrainee = dataService.getData();
+         vm.selectedTrainee = dataService.getData();
 
         (function(){
             console.log("2 INIT TRAINEE CONTROLLER");
