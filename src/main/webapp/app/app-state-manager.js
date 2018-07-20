@@ -9,14 +9,14 @@
             url: "/dashboard",
             templateUrl: "app/feature/dashboard/dashboard.html"
         }).state("trainee", {
-            url: "/trainee",
-            templateUrl: "app/feature/trainee/trainee.html"
+             url: "/trainee",
+             templateUrl: "app/feature/trainee/trainee.html"
         }).state("traineeDetails", {
-            url: "/traineeDetails",
-            params: {
-                obj: null
-            },
-            templateUrl: "app/feature/traineeDetails/traineeDetails.html"
+             url: "/traineeDetails",
+             params: {
+                 obj: null
+             },
+             templateUrl: "app/feature/traineeDetails/traineeDetails.html"
         })
     });
 }());

@@ -42,7 +42,7 @@ public class Trainee {
 	}
 
 	public String getSubject() {
-		return subject;
+		return subject.toString();
 	}
 
 	public void setSubject(String subject) {
@@ -55,6 +55,12 @@ public class Trainee {
 
 	public void setId(Long id) {
 		this.id = id;
+	}
+
+	@Override
+	public String toString() {
+		return "Trainee [id=" + id + ", firstName=" + firstName + ", secondName=" + secondName + ", subject=" + subject
+				+ "]";
 	}
 
 }

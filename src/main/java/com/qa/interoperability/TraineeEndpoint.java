@@ -1,4 +1,4 @@
-package com.qa.intergration;
+package com.qa.interoperability;
 
 import javax.inject.Inject;
 import javax.ws.rs.DELETE;
@@ -11,7 +11,7 @@ import javax.ws.rs.Produces;
 
 import com.qa.service.business.TraineeService;
 
-@Path("/trainee")
+@Path("/Trainee")
 public class TraineeEndpoint {
 
 	@Inject

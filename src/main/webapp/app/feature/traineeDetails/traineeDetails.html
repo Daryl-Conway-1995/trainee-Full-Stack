@@ -1,0 +1,12 @@
+<div ng-controller="traineeController as traineeCtrl">
+    <div style=";height:500px;width:80%;position:absolute;left: 160px;overflow:auto">
+        <h1>{{traineeCtrl.selectedTrainee.firstName}} {{traineeCtrl.selectedTrainee.secondName}}</h1>
+        <h2>subjects</h2>
+        <table class="table table-striped">
+            <tr ng-repeat="subject in traineeCtrl.selectedTrainee.subjects">
+                <td>{{subject}}</td>
+            </tr>
+        </table>
+        <a ui-sref="trainee">Trainees</a>
+    </div>
+</div>
